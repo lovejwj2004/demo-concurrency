@@ -1,8 +1,8 @@
-package thread.lock.spinlock.test;
+package demo.concurrent.lock.spinlock.test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import thread.lock.spinlock.SpinLock;
+import demo.concurrent.lock.spinlock.SpinLock;
 
 
 /**
@@ -11,8 +11,8 @@ import thread.lock.spinlock.SpinLock;
 public class SpinLockTest {
     @Test
     public void testLockAndUnlock(){
-        int countNum = 10000000;
-        SpinLock spinLock = new SpinLock();
+        final int countNum = 10000000;
+        final SpinLock spinLock = new SpinLock();
 //        Lock spinLock = new ReentrantLock();
          class TestValue{
              private int i = 0;

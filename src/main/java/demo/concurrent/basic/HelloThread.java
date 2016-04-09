@@ -1,4 +1,4 @@
-package thread.basic;
+package demo.concurrent.basic;
 
 /**
  * Created by lovejwj2004 on 2016/4/8.
