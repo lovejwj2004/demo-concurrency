@@ -6,7 +6,7 @@ Java Concurrency Demos
 Quickstart
 ==========
 
-     git clone git://github.com/gmshake/demo-concurrency.git
+     git clone https://github.com/gmshake/demo-concurrency.git
      cd demo-concurrency
      ./gradlew clean build
 
