@@ -1,7 +1,10 @@
 package demo.concurrent.lock.spinlock.test;
 
+import java.util.concurrent.locks.Lock;
+
 import org.junit.Assert;
 import org.junit.Test;
+
 import demo.concurrent.lock.spinlock.SpinLock;
 
 
@@ -12,7 +15,7 @@ public class SpinLockTest {
     @Test
     public void testLockAndUnlock(){
         final int countNum = 10000000;
-        final SpinLock spinLock = new SpinLock();
+        final Lock spinLock = new SpinLock();
 //        Lock spinLock = new ReentrantLock();
          class TestValue{
              private int i = 0;
