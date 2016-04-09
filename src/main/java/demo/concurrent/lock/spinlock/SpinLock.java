@@ -1,4 +1,4 @@
-package thread.lock.spinlock;
+package demo.concurrent.lock.spinlock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
